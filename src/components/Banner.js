@@ -8,7 +8,7 @@ const Banner = props => (
     <div className="content">
       <header>
                 <Typed
-                strings={["I'm Yukino Aoshima.", "青島礼乃です.", "I'm a translator.", "翻訳・通訳のお手伝いをします。"]}
+                strings={["I'm Yukino Aoshima.", "青島礼乃です.", "I'm a translator.", "通訳のお手伝いをします。"]}
                     typeSpeed={100}
                     backSpeed={50}
                     attr="placeholder"

@@ -1962,7 +1962,8 @@
 				}
 
 				.typed {
-					font-size: 95%;			}
+					font-size: 120%;
+				    overflow-wrap: break-all;				}
 
 				.content {
 					padding: ($size-wrapper-pad-tb * 1.25) $size-wrapper-pad-lr ($size-wrapper-pad-tb * 1.5) $size-wrapper-pad-lr;
