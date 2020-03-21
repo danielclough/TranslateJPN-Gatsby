@@ -1606,7 +1606,7 @@
 			p {
 			   position: absolute;
    				bottom: 50;
-   				left: 25%;
+   				left: 30%;
    				width: 75%;
 			}
 
@@ -1961,17 +1961,52 @@
 					height: calc(100vh - 44px);
 				}
 
+				.typed {
+					font-size: 200%;
+				}
+
 				.content {
 					padding: ($size-wrapper-pad-tb * 1.25) $size-wrapper-pad-lr ($size-wrapper-pad-tb * 1.5) $size-wrapper-pad-lr;
 
 					header {
 						h2 {
-							font-size: 1.5em;
+							font-size: 3.5em;
 						}
 					}
 
+					p {
+						position: relative;
+						float: none;
+						margin: auto;
+						text-align: center;
+						left: 0;
+					}
+
+				.image {
+					padding-left: 5%;
+					vertical-align: center;
+					width: 100% !important;
+					position: relative;
+
+					img {
+						border-radius: 100%;
+						display: block;
+						width: 95%;
+					}
+
+					&.left,
+					&.right {
+						max-width: 60%;
+						float: none;
+
+						img {
+							width: 100%;
+						}
+					}
+				}
 				}
 			}
+
 
 		/* Nav */
 
