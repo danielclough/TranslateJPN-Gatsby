@@ -35,9 +35,9 @@ const Footer = props => (
       </li>
     </ul>
     <ul className="copyright">
-      <li>&copy; Untitled. All rights reserved.</li>
+      <li>&copy; Yukino Aoshima. All rights reserved.</li>
       <li>
-        Design: <a href="http://html5up.net">HTML5 UP</a>
+        Design: <a href="http://html5up.net">HTML5 UP</a> & <a href="https://danielc.us/copyright">DanielC.us</a>
       </li>
       <li>
         Demo Images: <a href="https://unsplash.com">Unsplash</a>
