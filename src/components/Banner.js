@@ -34,8 +34,8 @@ const Banner = props => (
       className="goto-next"
       activeClass="active"
       smooth={true}
-      offset={50}
-      duration={1500}
+      offset={70}
+      duration={500}
       spy={true}
     >
       Next
