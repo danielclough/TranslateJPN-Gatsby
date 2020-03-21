@@ -6,9 +6,6 @@ import Typed from 'react-typed';
 const Banner = props => (
   <section id="banner">
     <div className="content">
-      <span className="image">
-        <img src={pic01} alt="intro" />
-      </span>
       <header>
                 <Typed
                 strings={["I'm Yukino Aoshima.", "青島礼乃です.", "I'm a translator.", "翻訳・通訳のお手伝いをします。"]}
@@ -18,12 +15,15 @@ const Banner = props => (
                     loop >
                     <input className="typed shadow" type="text"/>
                 </Typed>
+      </header>
+      <span className="image">
+        <img src={pic01} alt="Picture of Yukino Aoshima" />
+      </span>
         <p>
           Japanese English translation, interpretation, narration, and transcription.  
           <br />
           Serving Las Vegas for 10 years.
         </p>
-      </header>
     </div>
     <ScrollLink
       to="one"
