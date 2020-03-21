@@ -1,9 +1,9 @@
 module.exports = {
   //pathPrefix: `/mygatsby`,
   siteMetadata: {
-    title: 'Landed',
-    author: 'vasrush',
-    description: 'A Gatsby.js V2 Starter based on Landed by HTML5 UP',
+    title: 'TranslateJPN',
+    author: 'Daniel Clough',
+    description: 'Japanese English Translation based out of Las Vegas.',
     menuLinks: [
       {
         name: 'Home',

@@ -19,7 +19,8 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-reveal": "^1.2.2",
-    "react-scroll": "^1.7.14"
+    "react-scroll": "^1.7.14",
+    "react-typed": "^1.2.0"
   },
   "resolutions": {
     "react-helmet/react-side-effect": "2.1.0"

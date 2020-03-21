@@ -5,7 +5,6 @@
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
 @import url('../css/fontawesome-all.min.css');
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
 /*
 	Landed by HTML5 UP
@@ -126,6 +125,11 @@
 
 	html, body {
 		background: _palette(bg);
+	}
+
+	.typed {
+			font-size: 200%;
+			border: none !important;
 	}
 
 	body {
@@ -1551,7 +1555,6 @@
 		box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25);
 		min-height: 100vh;
 		position: relative;
-		text-align: center;
 		z-index: (_misc(max-spotlight) + 1);
 
 		&:before {
@@ -1563,7 +1566,7 @@
 		}
 
 		&:after {
-			@include vendor('background-image', ('linear-gradient(top, #{_palette(bg-transparent)}, #{_palette(bg-transparent)})', 'url("../css/images/overlay.png");'));
+			@include vendor('background-image', ('linear-gradient(to bottom, #{_palette(bg-transparent)}, #{_palette(bg-transparent)})', 'url("../css/images/overlay.png");'));
 			content: '';
 			display: block;
 			height: 100%;
@@ -1579,7 +1582,7 @@
 			max-width: 95%;
 			padding: $size-wrapper-pad-tb;
 			position: relative;
-			text-align: right;
+			text-align: left;
 			vertical-align: middle;
 			z-index: 1;
 
@@ -1602,8 +1605,8 @@
 				border-radius: 100%;
 				display: inline-block;
 				height: 18em;
-				margin-left: 3em;
-				vertical-align: middle;
+				margin-left: 70%;
+				vertical-align: center;
 				width: 18em;
 
 				img {
@@ -1871,6 +1874,10 @@
 				font-size: 1em;
 			}
 
+		.typed {
+				font-size: 100%;
+		}
+
 		/* Section/Article */
 
 			header {
@@ -1955,10 +1962,6 @@
 						}
 					}
 
-					.image {
-						height: 9em;
-						width: 9em;
-					}
 				}
 			}
 
