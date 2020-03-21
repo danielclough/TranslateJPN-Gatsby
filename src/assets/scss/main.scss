@@ -128,8 +128,10 @@
 	}
 
 	.typed {
-			font-size: 200%;
+			font-size: 250%;
 			border: none !important;
+			display: inline-block;
+			width: 75%;
 	}
 
 	body {
@@ -1601,17 +1603,24 @@
 				}
 			}
 
+			p {
+			   position: absolute;
+   				bottom: 50;
+   				left: 25%;
+   				width: 75%;
+			}
+
 			.image {
-				border-radius: 100%;
+				border-radius: 50%;
 				display: inline-block;
-				margin-left: 70%;
-				vertical-align: center;
-				width: 18em;
+				padding-left: 5%;
+				vertical-align: right;
+				width: 25%;
 
 				img {
 					border-radius: 100%;
 					display: block;
-					width: 100%;
+					width: 95%;
 				}
 			}
 		}

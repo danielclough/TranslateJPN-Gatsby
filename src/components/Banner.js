@@ -16,11 +16,15 @@ const Banner = props => (
                     <input className="typed shadow" type="text"/>
                 </Typed>
       </header>
-      <span className="image">
+      <span className="image left">
         <img src={pic01} alt="Picture of Yukino Aoshima" />
       </span>
         <p>
           Japanese English translation, interpretation, narration, and transcription.  
+          <br />
+          Serving Las Vegas for 10 years.
+          <br />
+                    Japanese English translation, interpretation, narration, and transcription.  
           <br />
           Serving Las Vegas for 10 years.
         </p>
