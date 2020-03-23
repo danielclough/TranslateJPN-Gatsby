@@ -1,0 +1,10 @@
+{
+    "development": {
+        "apiUrl": "https://admin.translateJPN.com",
+        "contentApiKey": "91e212b71a04a5ef13a8b63ba4"
+    },
+    "production": {
+        "apiUrl": "https://admin.translateJPN.com",
+        "contentApiKey": "91e212b71a04a5ef13a8b63ba4"
+    }
+}

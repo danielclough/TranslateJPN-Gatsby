@@ -51,7 +51,7 @@ const One = props => (
       className="goto-next"
       activeClass="active"
       smooth={true}
-      offset={70}
+      offset={0}
       duration={500}
       spy={true}
     >
