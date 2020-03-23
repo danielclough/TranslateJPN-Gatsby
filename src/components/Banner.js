@@ -8,7 +8,15 @@ const Banner = props => (
     <div className="content">
       <span className="image left">
         <img src={pic01} alt="Picture of Yukino Aoshima" />
-      </span>
+
+                <Typed
+                strings={["I'm Yukino Aoshima.", "青島礼乃です.", "I'm a translator.", "通訳のお手伝いをします。"]}
+                    typeSpeed={100}
+                    backSpeed={50}
+                    attr="placeholder"
+                    loop >
+                    <input className="typed shadow" type="text"/>
+                </Typed>
         <p>
           Japanese English translation, interpretation, narration, and transcription.  <br />
           Serving Las Vegas for 10 years. <br />
@@ -18,14 +26,6 @@ const Banner = props => (
 
         
         </p>
-                <Typed
-                strings={["I'm Yukino Aoshima.", "青島礼乃です.", "I'm a translator.", "通訳のお手伝いをします。"]}
-                    typeSpeed={100}
-                    backSpeed={50}
-                    attr="placeholder"
-                    loop >
-                    <input className="typed shadow" type="text"/>
-                </Typed>
     </div>
     <ScrollLink
       to="one"
