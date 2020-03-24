@@ -127,6 +127,13 @@
 		background: _palette(bg);
 	}
 
+	.form-background {
+			background-color: rgba(0,0,0,.5);
+			padding-top: 50px;
+			padding-bottom: 50px;
+			margin-top: -100px; 
+	}
+
 	.typed {
 			font-size: 350%;
 			border: none !important;
@@ -525,12 +532,33 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
-	select,
-	textarea {
+	select {
 		@include vendor('appearance', 'none');
 		@include vendor('transition', 'border-color #{_duration(transition)} ease-in-out');
 		background: transparent;
 		border-radius: _size(border-radius);
+		border: solid 1px _palette(border);
+		color: inherit;
+		display: block;
+		outline: 0;
+		padding: 0 1em;
+		text-decoration: none;
+		width: 100%;
+
+		&:invalid {
+			box-shadow: none;
+		}
+
+		&:focus {
+			border-color: _palette(accent1);
+		}
+	}
+
+	textarea {
+			@include vendor('appearance', 'none');
+		@include vendor('transition', 'border-color #{_duration(transition)} ease-in-out');
+		background: transparent;
+		border-radius: _size(border-radius-sq);
 		border: solid 1px _palette(border);
 		color: inherit;
 		display: block;

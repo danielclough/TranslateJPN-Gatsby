@@ -80,12 +80,8 @@ module.exports = {
         ],
       },
       {
-        name: 'Elements',
-        link: '/elements',
-      },
-      {
-        name: 'Sign Up',
-        link: '#',
+        name: 'Hire Me',
+        link: '#contact',
         cl: 'button primary',
       },
     ],
