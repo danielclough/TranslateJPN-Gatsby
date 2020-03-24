@@ -18,9 +18,10 @@ const One = props => (
           <div className="row">
             <div className="col-4 col-12-medium">
               <header>
-                <h2>Odio faucibus ipsum integer consequat</h2>
+                <h2>Translation</h2>
                 <p>
-                  Nascetur eu nibh vestibulum amet gravida nascetur praesent
+                   Your words exactly, <br /> 
+                   in another langauge.
                 </p>
               </header>
             </div>

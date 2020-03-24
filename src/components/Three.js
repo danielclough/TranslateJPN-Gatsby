@@ -15,8 +15,8 @@ const Three = props => (
     <Fade left big>
       <div className="content">
         <header>
-          <h2>Interdum felis blandit praesent sed augue</h2>
-          <p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
+          <h2>Presentation</h2>
+          <p>Share your story through me.</p>
         </header>
         <p>
           Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim
@@ -38,7 +38,7 @@ const Three = props => (
       className="goto-next"
       activeClass="active"
       smooth={true}
-      offset={0}
+      offset={70}
       duration={500}
       spy={true}
     >

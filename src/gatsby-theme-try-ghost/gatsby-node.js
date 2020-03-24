@@ -243,7 +243,7 @@ exports.createPages = async ({ graphql, actions }) => {
         component: indexTemplate,
         pathPrefix: ({ pageNumber }) => {
             if (pageNumber === 0) {
-                return `/blog`
+                return `/read-more`
             } else {
                 return `/page`
             }

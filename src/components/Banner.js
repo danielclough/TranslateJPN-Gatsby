@@ -8,7 +8,18 @@ const Banner = props => (
     <div className="content">
       <span className="image left">
         <img src={pic01} alt="Picture of Yukino Aoshima" />
+      </span>
+        <p>
+          日本語、英語の翻訳、通訳、ナレーション、文字起こし、エグゼクティブ、個人的なサポート。 <br />
+          <br />
+           ラスベガスで10年間サービスを提供しています。 <br />
+          <br />
+          Japanese English translation, interpretation, narration, transcription, executive, and personal assistance.  <br />
+          <br />
+          Serving Las Vegas for 10 years. <br />
 
+        
+        </p>
                 <Typed
                 strings={["I'm Yukino Aoshima.", "青島礼乃です.", "I'm a translator.", "通訳のお手伝いをします。"]}
                     typeSpeed={100}
@@ -17,15 +28,6 @@ const Banner = props => (
                     loop >
                     <input className="typed shadow" type="text"/>
                 </Typed>
-        <p>
-          Japanese English translation, interpretation, narration, and transcription.  <br />
-          Serving Las Vegas for 10 years. <br />
-          <br />
-          日本語、英語の翻訳、解釈、ナレーション、および採録。 <br />
-           ラスベガスで10年間サービスを提供しています。 <br />
-
-        
-        </p>
     </div>
     <ScrollLink
       to="one"

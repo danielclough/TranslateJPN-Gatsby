@@ -1598,15 +1598,18 @@
 				}
 
 				p {
-					margin: (_size(element-margin) * 0.25) 0 0 0;
+					margin: (_size(element-margin) * .25) 0 0 0;
 					top: 0;
 				}
 			}
 
 			p {
 			   position: absolute;
-   				left: 25%;
-   				width: 70%;
+					font-size: 170%;
+					line-height: 110%;
+   				left: 33%;
+   				top: 20%;
+   				width: 67%;
    				text-align: center;
 			}
 
@@ -1615,7 +1618,7 @@
 				display: inline-block;
 				padding-left: 5%;
 				vertical-align: right;
-				width: 25%;
+				width: 30%;
 
 				img {
 					border-radius: 100%;
