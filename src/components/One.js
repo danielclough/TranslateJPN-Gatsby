@@ -27,20 +27,15 @@ const One = props => (
             </div>
             <div className="col-4 col-12-medium">
               <p>
-                Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-                Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-                nisi praesent dolor adipiscing. Integer mi sed nascetur cep
-                aliquet augue varius tempus lobortis porttitor accumsan
-                consequat adipiscing lorem dolor.
+                Need Las Vegas local Japanese translator for tradeshows, conferences, TV production, private meetings? 
+                Do you have documents needing to be trasnlated to Japanese? I am here to assist. 
               </p>
             </div>
             <div className="col-4 col-12-medium">
               <p>
-                Morbi enim nascetur et placerat lorem sed iaculis neque ante
-                adipiscing adipiscing metus massa. Blandit orci porttitor
-                semper. Arcu phasellus tortor enim mi mi nisi praesent
-                adipiscing. Integer mi sed nascetur cep aliquet augue varius
-                tempus. Feugiat lorem ipsum dolor nullam.
+                ラスベガスで開催される展示会に行くのだけれど、英語ができなくて不安。現地の通訳さんにアテンドを頼みたい。
+                海外にいるクライアントに英語でプレゼンしなきゃ、でもこの言い回しで合ってる？原稿誰かチェックしてー！
+                初めての海外出張、英語の資料作らなきゃ！自力で翻訳した英文資料のファイナルチェックが必要。そんなあなたをお手伝いします。
               </p>
             </div>
           </div>

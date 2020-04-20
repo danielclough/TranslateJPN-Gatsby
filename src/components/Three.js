@@ -15,8 +15,8 @@ const Three = props => (
     <Fade left big>
       <div className="content">
         <header>
-          <h2>Presentation</h2>
-          <p>Share your story through me.</p>
+          <h2>Personal Assistance</h2>
+          <p>I help you get work done.</p>
         </header>
         <p>
           Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim

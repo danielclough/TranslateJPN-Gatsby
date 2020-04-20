@@ -19,10 +19,9 @@ const Two = props => (
           <p>The art of cross cultural communication.</p>
         </header>
         <p>
-          Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim
-          mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet
-          augue varius tempus lobortis porttitor lorem et accumsan consequat
-          adipiscing lorem.
+          ラスベガスで開催される展示会や会議の通訳をお手伝いします。
+          事前に準備できる文書の翻訳と違い、その場で臨機応変に対応する力が求められる通訳はプロを雇ってこそ実現化できるもの。
+          会議一つでも出張中のアテンドでも、なんでもお申し付けください。
         </p>
         <ul className="actions">
           <li>

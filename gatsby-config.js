@@ -40,48 +40,42 @@ module.exports = {
         link: '/',
       },
       {
-        name: 'Layouts',
-        link: '#',
+        name: 'Services',
+        link: '/',
         items: [
           {
-            name: 'Left Sidebar',
-            link: '/left-sidebar',
+            name: 'Translation',
+            link: '/',
           },
           {
-            name: 'Right Sidebar',
-            link: '/right-sidebar',
+            name: 'Interpretation',
+            link: '/',
           },
           {
-            name: 'No Sidebar',
-            link: '/no-sidebar',
-          },
-          {
-            name: 'SubMenu',
+            name: 'Personal Assistance',
             link: '#',
-            items: [
-              {
-                name: 'Option 1',
-                link: '#',
-              },
-              {
-                name: 'Option 2',
-                link: '#',
-              },
-              {
-                name: 'Option 3',
-                link: '#',
-              },
-              {
-                name: 'Option 4',
-                link: '#',
-              },
-            ],
+          },
+          {
+            name: 'Trasncription',
+            link: '#',
+          },
+          {
+            name: 'Narration',
+            link: '/',
           },
         ],
       },
       {
-        name: 'Hire Me',
-        link: '#contact',
+        name: 'About Us',
+        link: '/',
+      },
+      {
+        name: 'FAQ',
+        link: '/',
+      },
+      {
+        name: 'Contact',
+        link: '#',
         cl: 'button primary',
       },
     ],

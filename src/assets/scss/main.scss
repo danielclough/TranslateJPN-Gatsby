@@ -131,7 +131,7 @@
 			background-color: rgba(0,0,0,.5);
 			padding-top: 50px;
 			padding-bottom: 50px;
-			margin-top: -100px; 
+			margin-top: -50px; 
 	}
 
 	.typed {
@@ -1528,6 +1528,8 @@
 				li {
 					display: inline-block;
 					margin-left: 1em;
+					margin-right: 1em;
+					text-align: center !important;
 
 					a, span {
 						border: 0;
