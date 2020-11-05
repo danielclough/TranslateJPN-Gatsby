@@ -14,7 +14,7 @@
     "gatsby-plugin-sass": "^2.1.23",
     "gatsby-plugin-sharp": "^2.3.2",
     "gatsby-rehype-ghost-links": "^1.1.1",
-    "gatsby-rehype-prismjs": "^0.0.11",
+    "gatsby-rehype-prismjs": "^0.0.16",
     "gatsby-source-filesystem": "^2.1.38",
     "gatsby-theme-ghost-dark-mode": "^1.0.3",
     "gatsby-theme-try-ghost": "^1.2.11",
